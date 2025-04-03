@@ -1,279 +1,352 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DNC Bank</title>
-  <link rel="stylesheet" href="./style.css" />
-  <link 
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-      rel="stylesheet" 
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
-      crossorigin="anonymous">
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-    <a class="navbar-brand" href="#">DNC Bank</a>
-    <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Abrir menu">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <ul class="navbar-nav">
-      <li class="nav-item">Produto</li>
-      <li class="nav-item">Solução</li>
-      <li class="nav-item">Resolução</li>
-      <li class="nav-item">Preços</li>
-    </ul>
-    <div>
-      <button>Login</button>
-      <button>Entre com sua conta</button>
-    </div>
-  </div>
-  </nav>
-  <main>
-    <section class="hero-section">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNC Bank</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h1>
-              Transforme sua vida com a DNC Bank
-            </h1>
-            <p>
-              Descubra uma maneira mais inteligente de gerenciar seu dinheiro com a DNC Bank. Junte-se a milhares de clientes satisfeitos!
-            </p>
-            <button class="btn btn-primary">Entre com sua conta</button>
-          </div>
-          <div class="col-md-6">
-            <img src="./assets/main.png" alt="Imagem de mulher sorrindo" class="img-fluid">
+        <a class="navbar-brand" href="#">DNC Bank</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Abrir menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link">Produto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Solução</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Resolução</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Preços</a>
+            </li>
+          </ul>
+
+          <div class="d-flex">
+            <button class="btn btn-secondary">Login</button>
+            <button class="btn btn-primary ms-2">Entre com sua conta</button>
           </div>
         </div>
       </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h2>
-              Empréstimos com as menores tarifas
-            </h2>
-            <p>
-              Simplificando empréstimos e crédito. Na DNC Bank, ajudamos você a alcançar seus objetivos financeiros sem complicações."
-            </p>
-            <button class="btn btn-primary">Abra sua conta</button>
-          </div>
-          <div class="col-md-6">
-            <img src="./assets/money.png" alt="Dinheiro" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="./assets/cripto.png" alt="CriptoMoeda" class="img-fluid">
-          </div>
-          <div class="col-md-6">
-            <h2>
-              Compre Bitcoin
-            </h2>
-            <p>
-              O único banco virtual do mundo a fazer transações sem comprar nenhuma taxa de juros!
-            </p>
-            <button class="btn btn-primary">Abra sua conta</button>
-          </div>
-        </div>
-      </div> 
-    </section>
-    <section class="hero-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h1>
-              Cartão de crédito sem anuidade
-            </h1>
-            <p>
-              Esqueça as taxas ocultas e as burocracias. Com a DNC Bank, você obtém transparência total e taxas justas.
-            </p>
-            <button class="btn btn-primary">Abra sua conta</button>
-          </div>
-          <div class="col-md-6">
-            <img src="./assets/creditCard.png" alt="Cartao de Credito" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h2>
-              Suporte 24 horas
-            </h2>
-            <p>
-              Nossa equipe de especialistas está pronta para ajudar. Conte com suporte 24/7 para todas as suas necessidades financeiras.
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img src="./assets/atendime.png" alt="Menina atendendo" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container py-5">
-        <div class="row">
-          <h2 class="text-center">Preços para contas PJ</h2>
-          <p class="text-center">
-            Organize sua conta PJ com varios beneficios adicionais que só a DNC bank te proporciona!
-          </p>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <article class="pricing-card">
-              <h3>Free</h3>
-              <h4>R$0</h4>
-              <p>ipsum quia dolor sit amet, consectetur</p>
-              <ul>
-                <li>
-                  <i  class="bi bi-check-circle"></i>
-                  ipsum quia dolor sit amet, consectetur
-                </li>
-                <li>
-                  <i  class="bi bi-check-circle"></i>
-                  ipsum quia dolor sit amet, consectetur
-                </li>
-                <li>
-                  <i  class="bi bi-check-circle"></i>
-                  ipsum quia dolor sit amet, consectetur
-                </li>
-                <li>
-                  <i  class="bi bi-check-circle"></i>
-                  ipsum quia dolor sit amet, consectetur
-                </li>
-                <li>
-                  <i  class="bi bi-check-circle"></i>
-                  ipsum quia dolor sit amet, consectetur
-                </li>
-                <li>
-                  <i  class="bi bi-check-circle"></i>
-                  ipsum quia dolor sit amet, consectetur
-                </li>
-              </ul>
-              </article>
+    </nav>
+
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-md-6">
+              <h1>Transforme sua vida com a DNC Bank</h1>
+              <p>
+                Descubra uma maneira mais inteligente de gerenciar seu dinheiro
+                com a DNC Bank. Junte-se a milhares de clientes satisfeitos!
+              </p>
+              <button class="btn btn-primary">Entre com sua conta</button>
             </div>
+            <div class="col-md-6">
+              <img
+                src="./assets/main.png"
+                alt="Imagem de uma mulher sorrindo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-light">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-md-6">
+              <h2>Empréstimos com as menores tarifas</h2>
+              <p>
+                Simplificando empréstimos e crédito. Na DNC Bank, ajudamos você
+                a alcançar seus objetivos financeiros sem complicações."
+              </p>
+              <button class="btn btn-primary">Abra sua conta</button>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="./assets/money.png"
+                alt="Imagem de notas de dinheiro"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="row gy-5 mt-5">
+            <div class="col-md-6">
+              <img
+                src="./assets/cripto.png"
+                alt="Imagem de notas de dinheiro"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-6">
+              <h2>Compre Bitcoin</h2>
+              <p>
+                O único banco virtual do mundo a fazer transações sem comprar
+                nenhuma taxa de juros!
+              </p>
+              <button class="btn btn-primary">Abra sua conta</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero-section">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-md-6">
+              <h1>Cartão de crédito sem anuidade</h1>
+              <p>
+                Esqueça as taxas ocultas e as burocracias. Com a DNC Bank, você
+                obtém transparência total e taxas justas.
+              </p>
+              <button class="btn btn-primary">Abra sua conta</button>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="./assets/creditCard.png"
+                alt="Imagem de um cartão de crédito"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-light">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-md-6">
+              <img
+                src="./assets/atendime.png"
+                alt="Imagem de um atendente de suporte"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-6">
+              <h2>Suporte 24 horas</h2>
+              <p>
+                Nossa equipe de especialistas está pronta para ajudar. Conte com
+                suporte 24/7 para todas as suas necessidades financeiras.
+              </p>
+              <button class="btn btn-primary">Abra sua conta</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-light">
+        <div class="container py-5">
+          <div class="row">
+            <h2 class="text-center">Preços para contas PJ</h2>
+            <p class="text-center">
+              Organize sua conta PJ com varios beneficios adicionais que só a
+              DNC bank te proporciona!
+            </p>
+          </div> 
+
+          <div class="row gx-5">
             <div class="col-md-4">
               <article class="pricing-card">
                 <h3>Free</h3>
-                <h4>R$0</h4>
+                <h4>R$ 0,00</h4>
                 <p>ipsum quia dolor sit amet, consectetur</p>
-                <ul>
-                  <li>
-                    <i  class="bi bi-check-circle"></i>
-                    ipsum quia dolor sit amet, consectetur
+                <ul class="list-unstyled">
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
                   </li>
-                  <li>
-                    <i  class="bi bi-check-circle"></i>
-                    ipsum quia dolor sit amet, consectetur
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
                   </li>
-                  <li>
-                    <i  class="bi bi-check-circle"></i>
-                    ipsum quia dolor sit amet, consectetur
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
                   </li>
-                  <li>
-                    <i  class="bi bi-check-circle"></i>
-                    ipsum quia dolor sit amet, consectetur
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
                   </li>
-                  <li>
-                    <i  class="bi bi-check-circle"></i>
-                    ipsum quia dolor sit amet, consectetur
-                  </li>
-                  <li>
-                    <i  class="bi bi-check-circle"></i>
-                    ipsum quia dolor sit amet, consectetur
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
                   </li>
                 </ul>
-                </article>
-              </div>
-              <div class="col-md-4">
-                <article class="pricing-card">
-                  <h3>Free</h3>
-                  <h4>R$0</h4>
-                  <p>ipsum quia dolor sit amet, consectetur</p>
-                  <ul>
-                    <li>
-                      <i  class="bi bi-check-circle"></i>
-                      ipsum quia dolor sit amet, consectetur
-                    </li>
-                    <li>
-                      <i  class="bi bi-check-circle"></i>
-                      ipsum quia dolor sit amet, consectetur
-                    </li>
-                    <li>
-                      <i  class="bi bi-check-circle"></i>
-                      ipsum quia dolor sit amet, consectetur
-                    </li>
-                    <li>
-                      <i  class="bi bi-check-circle"></i>
-                      ipsum quia dolor sit amet, consectetur
-                    </li>
-                    <li>
-                      <i  class="bi bi-check-circle"></i>
-                      ipsum quia dolor sit amet, consectetur
-                    </li>
-                    <li>
-                      <i  class="bi bi-check-circle"></i>
-                      ipsum quia dolor sit amet, consectetur
-                    </li>
-                  </ul>
-                  </article>
-                </div>     
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <h5></h5>
-            <p></p>
-          </div>
-          <div class="col-md-3">
-            <h5></h5>
-            <ul class="list-unstyled">
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h5></h5>
-            <ul class="list-unstyled">
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h5></h5>
-            <ul class="list-unstyled">
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
+                <button class="btn btn-outline-secondary">
+                  Abra sua conta
+                </button>
+              </article>
+            </div>
 
+            <div class="col-md-4">
+              <article class="pricing-card featured">
+                <h3>Personal</h3>
+                <h4>R$ 0,00</h4>
+                <p>ipsum quia dolor sit amet, consectetur</p>
+                <ul class="list-unstyled">
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
+                  </li>
+                </ul>
+                <button class="btn btn-primary">Abra sua conta</button>
+              </article>
+            </div>
+
+            <div class="col-md-4">
+              <article class="pricing-card">
+                <h3>Organization</h3>
+                <h4>R$ 0,00</h4>
+                <p>ipsum quia dolor sit amet, consectetur</p>
+                <ul class="list-unstyled">
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-item-space">
+                      <img src="./assets/icon.png" class="list-item-icon" />
+                      <div>ipsum quia dolor sit amet, consectetur</div>
+                    </div>
+                  </li>
+                </ul>
+                <button class="btn btn-outline-secondary">
+                  Abra sua conta
+                </button>
+              </article>
+            </div>
+          </div>
         </div>
-      </div>
-    </footer>
-  </main>
-  
-</body>
+      </section>
+
+      <footer class="hero-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h5>DNC Bank</h5>
+              <p>Transforme sua vida financeira com a DNC Bank</p>
+            </div>
+            <div class="col-md-2">
+              <h5>Produto</h5>
+              <ul class="list-unstyled">
+                <li>Overview</li>
+                <li>Preço</li>
+                <li>Contratos</li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <h5>Recursos</h5>
+              <ul class="list-unstyled">
+                <li>Blog</li>
+                <li>Tutoriais</li>
+                <li>Ajude-me</li>
+              </ul>
+            </div>
+
+            <div class="col-md-2">
+              <h5>Companhia</h5>
+              <ul class="list-unstyled">
+                <li>Quem somos</li>
+                <li>Carreira</li>
+                <li>Atendimento</li>
+              </ul>
+            </div>
+
+            <div class="col-md-3">
+              <h5>Experimente hoje</h5>
+              <p>Comece gratuitamente e indique para seus amigos</p>
+              <button class="btn btn-primary">Abra sua conta</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
