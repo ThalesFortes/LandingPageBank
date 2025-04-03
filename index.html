@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DNC Bank</title>
-  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./style.css" />
   <link 
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
       rel="stylesheet" 
@@ -12,36 +12,267 @@
       crossorigin="anonymous">
 </head>
 <body>
-  <nav>
-    <span>DNC Bank</span>
-    <ul>
-      <li>Produto</li>
-      <li>Solução</li>
-      <li>Resolução</li>
-      <li>Preços</li>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+    <a class="navbar-brand" href="#">DNC Bank</a>
+    <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-nav">
+      <li class="nav-item">Produto</li>
+      <li class="nav-item">Solução</li>
+      <li class="nav-item">Resolução</li>
+      <li class="nav-item">Preços</li>
     </ul>
     <div>
       <button>Login</button>
       <button>Entre com sua conta</button>
     </div>
+  </div>
   </nav>
   <main>
-    <section>
-      <div>
-        <h1>
-          Transforme sua vida com a DNC Bank
-        </h1>
-        <p>
-          Descubra uma maneira mais inteligente de gerenciar seu dinheiro com a DNC Bank. Junte-se a milhares de clientes satisfeitos!
-        </p>
-        <button>Entre com sua conta</button>
+    <section class="hero-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>
+              Transforme sua vida com a DNC Bank
+            </h1>
+            <p>
+              Descubra uma maneira mais inteligente de gerenciar seu dinheiro com a DNC Bank. Junte-se a milhares de clientes satisfeitos!
+            </p>
+            <button class="btn btn-primary">Entre com sua conta</button>
+          </div>
+          <div class="col-md-6">
+            <img src="./assets/main.png" alt="Imagem de mulher sorrindo" class="img-fluid">
+          </div>
+        </div>
       </div>
     </section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <footer></footer>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>
+              Empréstimos com as menores tarifas
+            </h2>
+            <p>
+              Simplificando empréstimos e crédito. Na DNC Bank, ajudamos você a alcançar seus objetivos financeiros sem complicações."
+            </p>
+            <button class="btn btn-primary">Abra sua conta</button>
+          </div>
+          <div class="col-md-6">
+            <img src="./assets/money.png" alt="Dinheiro" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./assets/cripto.png" alt="CriptoMoeda" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <h2>
+              Compre Bitcoin
+            </h2>
+            <p>
+              O único banco virtual do mundo a fazer transações sem comprar nenhuma taxa de juros!
+            </p>
+            <button class="btn btn-primary">Abra sua conta</button>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <section class="hero-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>
+              Cartão de crédito sem anuidade
+            </h1>
+            <p>
+              Esqueça as taxas ocultas e as burocracias. Com a DNC Bank, você obtém transparência total e taxas justas.
+            </p>
+            <button class="btn btn-primary">Abra sua conta</button>
+          </div>
+          <div class="col-md-6">
+            <img src="./assets/creditCard.png" alt="Cartao de Credito" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>
+              Suporte 24 horas
+            </h2>
+            <p>
+              Nossa equipe de especialistas está pronta para ajudar. Conte com suporte 24/7 para todas as suas necessidades financeiras.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="./assets/atendime.png" alt="Menina atendendo" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container py-5">
+        <div class="row">
+          <h2 class="text-center">Preços para contas PJ</h2>
+          <p class="text-center">
+            Organize sua conta PJ com varios beneficios adicionais que só a DNC bank te proporciona!
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <article class="pricing-card">
+              <h3>Free</h3>
+              <h4>R$0</h4>
+              <p>ipsum quia dolor sit amet, consectetur</p>
+              <ul>
+                <li>
+                  <i  class="bi bi-check-circle"></i>
+                  ipsum quia dolor sit amet, consectetur
+                </li>
+                <li>
+                  <i  class="bi bi-check-circle"></i>
+                  ipsum quia dolor sit amet, consectetur
+                </li>
+                <li>
+                  <i  class="bi bi-check-circle"></i>
+                  ipsum quia dolor sit amet, consectetur
+                </li>
+                <li>
+                  <i  class="bi bi-check-circle"></i>
+                  ipsum quia dolor sit amet, consectetur
+                </li>
+                <li>
+                  <i  class="bi bi-check-circle"></i>
+                  ipsum quia dolor sit amet, consectetur
+                </li>
+                <li>
+                  <i  class="bi bi-check-circle"></i>
+                  ipsum quia dolor sit amet, consectetur
+                </li>
+              </ul>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="pricing-card">
+                <h3>Free</h3>
+                <h4>R$0</h4>
+                <p>ipsum quia dolor sit amet, consectetur</p>
+                <ul>
+                  <li>
+                    <i  class="bi bi-check-circle"></i>
+                    ipsum quia dolor sit amet, consectetur
+                  </li>
+                  <li>
+                    <i  class="bi bi-check-circle"></i>
+                    ipsum quia dolor sit amet, consectetur
+                  </li>
+                  <li>
+                    <i  class="bi bi-check-circle"></i>
+                    ipsum quia dolor sit amet, consectetur
+                  </li>
+                  <li>
+                    <i  class="bi bi-check-circle"></i>
+                    ipsum quia dolor sit amet, consectetur
+                  </li>
+                  <li>
+                    <i  class="bi bi-check-circle"></i>
+                    ipsum quia dolor sit amet, consectetur
+                  </li>
+                  <li>
+                    <i  class="bi bi-check-circle"></i>
+                    ipsum quia dolor sit amet, consectetur
+                  </li>
+                </ul>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article class="pricing-card">
+                  <h3>Free</h3>
+                  <h4>R$0</h4>
+                  <p>ipsum quia dolor sit amet, consectetur</p>
+                  <ul>
+                    <li>
+                      <i  class="bi bi-check-circle"></i>
+                      ipsum quia dolor sit amet, consectetur
+                    </li>
+                    <li>
+                      <i  class="bi bi-check-circle"></i>
+                      ipsum quia dolor sit amet, consectetur
+                    </li>
+                    <li>
+                      <i  class="bi bi-check-circle"></i>
+                      ipsum quia dolor sit amet, consectetur
+                    </li>
+                    <li>
+                      <i  class="bi bi-check-circle"></i>
+                      ipsum quia dolor sit amet, consectetur
+                    </li>
+                    <li>
+                      <i  class="bi bi-check-circle"></i>
+                      ipsum quia dolor sit amet, consectetur
+                    </li>
+                    <li>
+                      <i  class="bi bi-check-circle"></i>
+                      ipsum quia dolor sit amet, consectetur
+                    </li>
+                  </ul>
+                  </article>
+                </div>     
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h5></h5>
+            <p></p>
+          </div>
+          <div class="col-md-3">
+            <h5></h5>
+            <ul class="list-unstyled">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5></h5>
+            <ul class="list-unstyled">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5></h5>
+            <ul class="list-unstyled">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </footer>
   </main>
   
 </body>

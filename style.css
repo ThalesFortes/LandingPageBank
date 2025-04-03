@@ -1,0 +1,60 @@
+:root{
+  --primary-color:#043873;
+  --btn-primary-color:#4f9cf9;
+  --btn-secondary-color:#ffe492
+}
+
+.hero-section{
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 5rem 0;
+}
+
+.section-light{
+  padding: 5rem 0;
+}
+
+.btn-primary{
+  background-color: var(--btn-primary-color) !important; 
+}
+
+.btn-secondary{
+  background-color: var(--btn-secondary-color) !important;
+}
+
+.pricing-card{
+  border: 1px solid var(--btn-secondary-color);
+  padding: 4rem 4.5rem;
+}
+
+.pricing-card.featured{
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.navbar{
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+}
+
+.navbar-toggler{
+  border-color: #fff;
+}
+
+.navbar-toggler-icon{
+  background-image: url("");
+}
+
+.navbar-lin{
+  color: white; !important
+}
+
+@media (max-width:1024px){
+  .navbar-collapse{
+    margin-top: 1rem;
+  }
+
+  .d-flex{
+    margin-top: 1rem;
+  }
+}
